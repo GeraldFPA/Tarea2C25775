@@ -1,13 +1,26 @@
 {
   "name": "Tarea2C25775",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST de la Copa Mundial FIFA con Express, SQLite y Zod",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "poblar": "node scripts/poblar.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "fifa",
+    "mundial",
+    "api",
+    "express",
+    "sqlite"
+  ],
+  "author": "C25775",
   "license": "ISC",
-  "packageManager": "pnpm@10.32.1"
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "express": "^4.21.2",
+    "zod": "^3.24.2"
+  }
 }
