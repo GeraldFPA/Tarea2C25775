@@ -5,7 +5,7 @@ API REST desarrollada con **Node.js**, **Express**, **SQLite** y **Zod** que exp
 ## Requisitos
 
 - [Node.js](https://nodejs.org/) 22 o superior (modulo `node:sqlite` integrado)
-- npm
+- pnpm
 
 ## Instalacion
 
